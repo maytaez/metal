@@ -2,11 +2,16 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_url: "https://drive.google.com/file/d/1oW08OXdxpPQ2npec20oYdxswYewzBQOM/view?usp=sharing"
-  local_data_file: artifacts/data_ingestion/metal_dataset.zip
-  unzip_dir: artifacts/data_ingestion
+  source_url: "https://drive.google.com/file/d/1erqPcCVU9_PukZbvnf1Kl0yadqX8Pjj1/view?usp=sharing"
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion/
 
 prepare_base_model:
   root_dir: artifacts/prepare_base_model
   base_model_path: artifacts/prepare_base_model/base_model.h5 #wil store the vgg16 pretrained model as h5 file
   updated_base_model_path: artifacts/prepare_base_model/base_model_updated.h5 #after fine-tuning updated vgg-16
+
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/model.h5 # final model after training which will be further used for prediction
+

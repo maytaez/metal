@@ -16,4 +16,7 @@ scipy
 Flask
 Flask-Cors
 gdown
+tensorflow-macos
+tensorflow-metal
+
 -e .
