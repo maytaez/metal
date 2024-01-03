@@ -1,11 +1,14 @@
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.data_ingestion import DataIngestion
 from src.cnnClassifier import logger
+import sys
+
+sys.path.append("/Users/satyampant/Desktop/Master_Arbeit/metal")
 
 STAGE_NAME = "Data Ingestion Stage"
 
 
-class DataIngestionTrasiningPipeline:
+class DataIngestionTrainingPipeline:
     def __init__(self):
         pass
 
@@ -20,7 +23,7 @@ class DataIngestionTrasiningPipeline:
 if __name__ == "__main__":
     try:
         logger.info(f">>> stage {STAGE_NAME} started <<< ")
-        obj = DataIngestionTrasiningPipeline()
+        obj = DataIngestionTrainingPipeline()
         obj.main()
         logger.info(f">>> stage {STAGE_NAME} completed <<<\n\nx=========x")
 

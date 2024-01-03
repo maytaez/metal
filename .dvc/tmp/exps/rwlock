@@ -1,0 +1,1 @@
+{"read": {}, "write": {"workspace": {"pid": 51697, "cmd": "/Library/Frameworks/Python.framework/Versions/3.11/bin/dvc exp run --pull --allow-missing --set-param evaluate.n_samples_to_save=1000"}, "refs/exps/stash": {"pid": 51697, "cmd": "/Library/Frameworks/Python.framework/Versions/3.11/bin/dvc exp run --pull --allow-missing --set-param evaluate.n_samples_to_save=1000"}}}

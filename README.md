@@ -38,3 +38,22 @@ conda activate metal
 pip install -r requirements.txt
 ```
 
+##### cmd
+- mlflow ui
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/maytaez/metal.mlflow \
+MLFLOW_TRACKING_USERNAME=maytaez \
+MLFLOW_TRACKING_PASSWORD=189dd8fc849777ce77eee82487a289a1937873ea \
+python script.py
+
+Run this to export as env variables:
+
+```bash
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/maytaez/metal.mlflow 
+
+export MLFLOW_TRACKING_USERNAME=maytaez 
+export MLFLOW_TRACKING_PASSWORD=189dd8fc849777ce77eee82487a289a1937873ea 
